@@ -1,0 +1,24 @@
+.app {
+  width: 100%;
+}
+
+.app__body {
+  width: 100%;
+}
+
+.test-div {
+  background-color: rebeccapurple;
+  height: 100px;
+  color: aliceblue;
+}
+
+.mobile {
+  display: none;
+}
+
+.status-text {
+  font-size: 12px;
+  margin-left: 10px;
+  font-style: italic;
+  color: #d9512c;
+}

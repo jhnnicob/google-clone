@@ -1,0 +1,25 @@
+.projects {
+  background-color: var(--black);
+  color: white;
+  padding: 50px 20px;
+}
+
+.projects__body > h2 {
+  text-align: center;
+}
+
+@media only screen and (min-width: 768px) {
+  .projects {
+    display: flex;
+    justify-content: center;
+    padding: 60px 20px;
+  }
+
+  .projects__body {
+    width: 750px;
+  }
+
+  .projects__body > h2 {
+    font-size: 35px;
+  }
+}

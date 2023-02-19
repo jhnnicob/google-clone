@@ -1,0 +1,35 @@
+.about {
+  display: flex;
+  justify-content: center;
+  padding: 50px 20px;
+}
+
+#about {
+  transition: all 0.2s;
+}
+
+.about__body > h2 {
+  text-align: center;
+}
+
+.about__body > h3 {
+  margin-top: 40px;
+}
+
+.about__body > p {
+  margin-top: 30px;
+}
+
+@media only screen and (min-width: 768px) {
+  .about {
+    padding: 80px 20px;
+  }
+
+  .about__body {
+    max-width: 750px;
+  }
+
+  .about__body > h2 {
+    font-size: 35px;
+  }
+}
